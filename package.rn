@@ -1,0 +1,27 @@
+###
+##   This is a example of how the settings file my look like. This dataserialization language is a  subset of the YAML
+###
+Project:   
+  Name: Mercury_c
+  author: Matheus de Oliveira
+  version: 1.0.0  
+  edition: 2022
+        
+Build_options:
+  lang: Cpp
+  compiler: clang++
+  flags: [-C -O2]
+    release: [ -O3 ]
+    
+
+Libs:
+  Inside: 
+    sorting:
+      path: path/to/sorting
+      link: dynamic
+    log:
+      path: path/to/log
+      link: dynamic
+      flags: [-C, -O3, -S]
+
+  External: 

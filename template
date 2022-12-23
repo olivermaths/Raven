@@ -1,0 +1,44 @@
+project/
+├── src/
+│   ├── main.cc
+│   ├── module1/
+│   │   ├── module1.cc
+│   │   ├── module1.h
+│   ├── module2/
+│   │   ├── module2.cc
+│   │   ├── module2.h
+│   └── ...
+├── test/
+│   ├── test1.cc
+│   ├── test2.cc
+│   └── ...
+├── doc/
+│   ├── documentation.pdf
+│   ├── design.pdf
+│   └── ...
+├── lib/
+│   ├── library1/
+│   │   ├── library1.cc
+│   │   ├── library1.h
+│   ├── library2/
+│   │   ├── library2.cc
+│   │   ├── library2.h
+│   └── ...
+├── include/
+│   ├── header1.h
+│   ├── header2.h
+│   └── ...
+├── scripts/
+│   ├── build.sh
+│   ├── test.sh
+│   └── ...
+├── data/
+│   ├── input1.dat
+│   ├── input2.dat
+│   └── ...
+├── build/
+│   ├── Makefile
+│   ├── CMakeLists.txt
+│   └── ...
+├── .gitignore
+└── README.md
